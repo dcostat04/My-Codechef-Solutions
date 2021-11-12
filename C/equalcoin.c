@@ -12,7 +12,7 @@ int main(void) {
         else if(y%2!=0){
             int z=(y/2)+1;
             int k=z-(y/2);
-            x=x-(k*2);       //y is now equalized
+            x=x-(k*2);       
             if(x%2 == 0 && x>=0){
                 printf("Yes\n");
             }
