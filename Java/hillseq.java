@@ -20,7 +20,7 @@ class Codechef
 	public static void hillSequence()
 	{
 	    
-	      int n = sc.nextInt();
+	  int n = sc.nextInt();
           int[] arr = new int[n];
           int i;
           HashMap<Integer,Integer> map = new HashMap<>();
@@ -128,7 +128,7 @@ class Codechef
             }
           }
           System.out.println();	
-		}
+	}
 }
 	
 	    
